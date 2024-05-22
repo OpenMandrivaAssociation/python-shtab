@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 Name:		python-shtab
 Version:	1.7.1
 Release:	1
