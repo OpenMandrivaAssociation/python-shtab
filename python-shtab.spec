@@ -8,6 +8,7 @@ URL:		https://pypi.org/project/shtab/
 License:	Apache-2.0
 Group:		Development/Python
 BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildArch:	noarch
 
 %description
