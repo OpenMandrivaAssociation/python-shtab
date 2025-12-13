@@ -1,6 +1,6 @@
 %undefine _debugsource_packages
 Name:		python-shtab
-Version:	1.7.1
+Version:	1.8.0
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/s/shtab/shtab-%{version}.tar.gz
 Summary:	Automagic shell tab completion for Python CLI applications
