@@ -26,4 +26,4 @@ Automagic shell tab completion for Python CLI applications
 %files
 %{_bindir}/shtab
 %{py_sitedir}/shtab
-%{py_sitedir}/shtab-%{version}.dist-info
+#{py_sitedir}/shtab-%{version}.dist-info
