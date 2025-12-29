@@ -9,7 +9,7 @@ License:	Apache-2.0
 Group:		Development/Python
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
-BuildRequires:  python%{pyver}dist(python-setuptools_scm)
+BuildRequires:  python%{pyver}dist(setuptools_scm)
 BuildArch:	noarch
 
 %description
