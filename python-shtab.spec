@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 Name:		python-shtab
-Version:	1.8.0
-Release:	2
+Version:	1.9.0
+Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/s/shtab/shtab-%{version}.tar.gz
 Summary:	Automagic shell tab completion for Python CLI applications
 URL:		https://pypi.org/project/shtab/
@@ -16,7 +16,7 @@ BuildArch:	noarch
 Automagic shell tab completion for Python CLI applications
 
 %prep
-%autosetup -p1 -n shtab-%{version}
+%autosetup -p1 -n shtab-1.9.0
 
 %build
 %py_build
