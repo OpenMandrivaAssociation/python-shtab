@@ -1,6 +1,6 @@
 %undefine _debugsource_packages
 Name:		python-shtab
-Version:	1.9.0
+Version:	1.12.1
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/s/shtab/shtab-%{version}.tar.gz
 Summary:	Automagic shell tab completion for Python CLI applications
@@ -19,6 +19,9 @@ Automagic shell tab completion for Python CLI applications
 %autosetup -p1 -n shtab-1.9.0
 
 %build
+# The sdist is not a git checkout, so the versioning backend needs the version.
+export SETUPTOOLS_SCM_PRETEND_VERSION=%{version}
+
 %py_build
 
 %install
