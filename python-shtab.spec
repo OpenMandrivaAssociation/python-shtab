@@ -16,7 +16,7 @@ BuildArch:	noarch
 Automagic shell tab completion for Python CLI applications
 
 %prep
-%autosetup -p1 -n shtab-1.9.0
+%autosetup -p1 -n shtab-%{version}
 
 %build
 # The sdist is not a git checkout, so the versioning backend needs the version.
